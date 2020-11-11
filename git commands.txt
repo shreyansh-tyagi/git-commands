@@ -1,0 +1,501 @@
+$ history
+   10  clear
+   11  pwd
+   12  git config --global user.name
+   13  git config --global user.email
+   14  cd /d/OneDrive/Desktop
+   15  mkdir git-trial
+   16  cd git-trial
+   17  ls
+   18  ls -lart
+   19  git init
+   20  ls
+   21  ls -lart
+   22  ls
+   23  ls -lart
+   24  touch anchor.html
+   25  ls
+   26  git status
+   27  git add *.html
+   28  git status
+   29  git status
+   30  git restore --staged anchor.html
+   31  git restore anchor.html
+   32  git status
+   33  git status
+   34  git add .
+   35  git status
+   36  git commit -m 'anchor file added'
+   37  git status
+   38  touch README.md
+   39  git status
+   40  git add .
+   41  git commit -m 'readme added'
+   42  git status
+   43  git congif --global user.name
+   44  git config --global user.name
+   45  git config --global user.email
+   46  git remote add origin https://github.com/shreyansh-tyagi/shreyansh-tyagi.github.io.git
+   47  git push -u origin master
+   48  git remote add origin https://github.com/shreyansh-tyagi/myappsample.git
+   49  git push -u origin master
+   50  clear
+   51  clear
+   52  cd /d/OneDrive/Desktop
+   53  cd git-trial
+   54  ls
+   55  ls -lart
+   56  git status
+   57  touch hello.html
+   58  git status
+   59  git add .
+   60  git status
+   61  git status
+   62  git add .
+   63  git status
+   64  git commit -m 'commit html files'
+   65  git status
+   66  git status
+   67  git checkout hello.html
+   68  git status
+   69  git status
+   70  hello.html
+   71  notepad++.exe
+   72  git status
+   73  git checkout anchor.html
+   74  git status
+   75  git status
+   76  git checkout -f
+   77  git status
+   78  git log
+   79  git lop -p -1
+   80  git log -p -1
+   81  git log -p 1
+   82  git log -p -2
+   83  git status
+   84  git status
+   85  git diff
+   86  git checkout anchor.html
+   87  git status
+   88  git diff
+   89  git status
+   90  ls
+   91  touch waste.html
+   92  ls
+   93  git add .
+   94  git status
+   95  git restore --staged waste.html
+   96  git status
+   97  git add .
+   98  git status
+   99  git rm --cached waste.html
+  100  ls
+  101  git status
+  102  git rm waste.html
+  103  git add .
+  104  git status
+  105  git rm waste.html
+  106  git rm -f waste.html
+  107  git status
+  108  ls
+  109  git status
+  110  git commit -m 'remove waste html file'
+  111  git log -p -2
+  112  git log -p -3
+  113  git status
+  114  git status -s
+  115  git checkout -f
+  116  git status -s
+  117  git status
+  118  touch .gitignore
+  119  touch abc.log
+  120  touch bca.log
+  121  touch mylog.log
+  122  touch 123.txt
+  123  ls
+  124  git status
+  125  git status
+  126  git status
+  127  mkdir dir1
+  128  git status
+  129  cd dir1
+  130  touch xyz.log
+  131  ls
+  132  git status
+  133  cd -
+  134  git status
+  135  touch ignr.html
+  136  git status
+  137  git status
+  138  git status
+  139  cd dir1
+  140  touch ayc.html
+  141  git status
+  142  cd -
+  143  git status
+  144  git status
+  145  git status
+  146  git add .
+  147  git status
+  148  git commit -m 'git ignore file commited'
+  149  git status
+  150  git status
+  151  git add .
+  152  git rm -f *.log
+  153  git status
+  154  git rm 123.txt
+  155  git rm -f *.html
+  156  git rm -f dir1
+  157  git rm -r dir1
+  158  git rm -f -r dir1
+  159  git status
+  160  git diff
+  161  git commit -m 'git ignore file commited'
+  162  git status
+  163  git diff
+  164  git status
+  165  git commit -a  -m 'commit all'
+  166  git status
+  167  git status
+  168  git add .
+  169  git commit -a -m 'commit html file'
+  170  git status
+  171  git log -p -2
+  172  ls
+  173  git status
+  174  history
+  175  clear history
+  176  git status
+  177  git branch fetch
+  178  git branch
+  179  git branch mybranch
+  180  git branch
+  181  git checkout fetch
+  182  git status
+  183  git add .
+  184  git status
+  185  git commit -a -m 'files modified in fetch branch'
+  186  git status
+  187  git branch
+  188  git checkout mybranch
+  189  git checkout master
+  190  git checkout mybranch
+  191  git checkout fetch
+  192  git checkout mybranch
+  193  git checkout master
+  194  git checkout mybranch
+  195  git status
+  196  git add .
+  197  git status
+  198  git commit -a -m 'mybranch is commited'
+  199  git status
+  200  git checkout master
+  201  git status
+  202  git merge fetch
+  203  git status
+  204  git merge mybranch
+  205  git status
+  206  git log -p -2
+  207  git status
+  208  git remote -v
+  209  git remote add origin https://github.com/shreyansh-tyagi/anchor-tag.git
+  210  git branch -m master
+  211  git remote add origin https://github.com/shreyansh-tyagi/anchor-tag.git
+  212  git remote
+  213  git remote add origin https://github.com/shreyansh-tyagi/anchor-tag.git
+  214  git remote set-url origin  https://github.com/shreyansh-tyagi/anchor-tag.git
+  215  git push -u origin master
+  216  git status
+  217  git status
+  218  git commit -a -m 'bye added'
+  219  git push
+  220  git remote
+  221  git remote -v
+  222  exit
+  223  cd /d/OneDrive/Desktop/git-trial
+  224  git status
+  225  git branch
+  226  git checkout fetch
+  227  git push
+  228  git push --set-upstream origin fetch
+  229  git checkout mybranch
+  230  git push
+  231  git push --set-upstream origin mybranch
+  232  git checkout master
+  233  git push -u origin fetch
+  234  git push -u origin mybranch
+  235  git checkout fetch
+  236  git status
+  237  git add .
+  238  git commit -m 'changes made in fetch branch'
+  239  git status
+  240  git checkout mybranxh
+  241  git checkout mybranch
+  242  git status
+  243  git add.
+  244  git add .
+  245  git status
+  246  git commit 'mybranch now word added in additional to knw i am in mybranch'
+  247  git status
+  248   git commit 'mybranch now word added in additional to knw i am in mybranch'
+  249  git commit -m 'mybranch word added to know that i am in mybranch'
+  250  git status
+  251  git checkout fetch
+  252  git push -u origin fetch
+  253  git checkout mybranch
+  254  git push -u origin mybranch
+  255  git status
+  256  git checkout master
+  257  git merge fetch
+  258  git merge mybranch
+  259  git status
+  260  git add .
+  261  git commit -m 'merging after change'
+  262  git status
+  263  exit
+  264  git status
+  265  ls
+  266  gedit anchor.html
+  267  gedit 123.txt
+  268  exit
+  269  cd /d
+  270  ls
+  271  cd 'c programs'
+  272  ls
+  273  cd '2d array'
+  274  ls
+  275  git init
+  276  ls -lart
+  277  git status
+  278  git add .
+  279  git status
+  280  git commit -a -m 'all file related to 2d array program is being added'
+  281  git status
+  282  git remote set url origin https://github.com/shreyansh-tyagi/2d-array.git
+  283  git remote -v
+  284  git remove -v
+  285  git remote -v
+  286  git remote add origin https://github.com/shreyansh-tyagi/2d-array.git
+  287  git remote -v
+  288  touch README.md
+  289  ls
+  290  git status
+  291  git add .
+  292  git commit -m 'added readme'
+  293  git status
+  294  git push -u origin master
+  295  git log --oneline
+  296  exit
+  297  cd /d
+  298  cd /OneDrive
+  299  ls
+  300  cd OneDrive
+  301  cd Desktop
+  302  cd --
+  303  cd /d
+  304  ls
+  305  cd 'c programs'
+  306  ls
+  307  cd '2d array 1'
+  308  ls
+  309  git init
+  310  git status
+  311  git add .
+  312  git status
+  313  git commit 'all files related to 2d array 1 is being added'
+  314  git commit -a -m 'all files related to 2d array 1 folder is being added'
+  315  git status
+  316  git remote add origin https://github.com/shreyansh-tyagi/2d-array.git
+  317  git push -u origin master
+  318  git remote -v
+  319  git set-url origin https://github.com/shreyansh-tyagi/2d-array.git
+  320  git remote set-url origin https://github.com/shreyansh-tyagi/2d-array.git
+  321  git status
+  322  git push
+  323  git push --set-upstream origin master
+  324  git merge master
+  325  git fetch origin master
+  326  git merge origin master
+  327  git push -u origin master
+  328  git checkout -b tempbranch
+  329  git branch
+  330  git status
+  331  git merge master
+  332  git branch -d tempbranch
+  333  git checkout master
+  334  git branch -d tempbranch
+  335  git branch
+  336  git status
+  337  git remote add origin https://github.com/shreyansh-tyagi/2d-array-1-.git
+  338  git remote set-url origin https://github.com/shreyansh-tyagi/2d-array-1-.git
+  339  git push -u origin
+  340  git push --set-upstream origin master
+  341  touch README.md
+  342  git push
+  343  git status
+  344  git add .
+  345  git commit -a -m 'readme added'
+  346  git log --oneline
+  347  git status
+  348  git push
+  349  git status
+  350  cd --
+  351  cd /d/'c programs'
+  352  ls
+  353  cd 'addition of n number in structure'
+  354  ls
+  355  git init
+  356  git status
+  357  git add .
+  358  git status
+  359  git commit -a -m 'structure program is added '
+  360  git status
+  361  git remote -v
+  362  git remote add origin  https://github.com/shreyansh-tyagi/structure-in-c-lang..git
+  363  git remote -v
+  364  touch README.md
+  365  git status
+  366  git commit -a -m 'readme added '
+  367  git add .
+  368  git status
+  369  git commit -a -m 'readme added'
+  370  git status
+  371  git push -u origin
+  372  git remote
+  373  git push
+  374  git push --set-upstream origin master
+  375  git status
+  376  cd --
+  377  cd /d/'c programs'
+  378  ls
+  379  git init
+  380  git status
+  381  git add .
+  382  git status
+  383  git commit -a -m 'adding all c files and programs'
+  384  git status
+  385  git add .
+  386  git status
+  387  git add /2d array
+  388  git add .
+  389  git status
+  390  git commit -a
+  391  git restore 2d array
+  392  git branch
+  393  git remote
+  394  git remote add origin https://github.com/shreyansh-tyagi/c-language-topicwise.git
+  395  git remote
+  396  git remote -v
+  397  git push -u origin master
+  398  git status
+  399  touch README.md
+  400  git status
+  401  git add .
+  402  git status
+  403  git rm --cached 2d array
+  404  git status
+  405  git commit -a -m 'readme added'
+  406  git status
+  407  git status
+  408  git add .
+  409  git status
+  410  git commit -a -m '2d array file newly added'
+  411  git log --oneline
+  412  git status
+  413  git push
+  414  git status
+  415  git add .
+  416  git status
+  417  git commit -a -m 'large prime number main.exe binaries changed'
+  418  git status
+  419  git remote
+  420  git remote -v
+  421  git push
+  422  git status
+  423  git log --oneline
+  424  cd --
+  425  cd /d
+  426  ls
+  427  cd 'html projects'
+  428  ls
+  429  git init
+  430  git status
+  431  git add .
+  432  git status
+  433  git commit -a -m 'adding html and css files'
+  434  git status
+  435  git remote -v
+  436  git remote add origin https://github.com/shreyansh-tyagi/html-and-css-projects.git
+  437  git remote
+  438  git remaote -v
+  439  git remote -v
+  440  git push -u origin master
+  441  git status
+  442  touch README.md
+  443  git status
+  444  git add .
+  445  git commit -a -m 'readme added'
+  446  git status
+  447  git push
+  448  git status
+  449  cd --
+  450  cd /d
+  451  ls
+  452  cd 'java projects'
+  453  ls
+  454  git init
+  455  git status
+  456  git add .
+  457  git status
+  458  git commit -a -m 'adding java files and program'
+  459  git status
+  460  git remote add origin  https://github.com/shreyansh-tyagi/java-programs.git
+  461  git remote
+  462  git remote -v
+  463  git push -u origin master
+  464  git status
+  465  touch RAEDME.MD
+  466  git status
+  467  git add .
+  468  git commit -a -m 'readme added'
+  469  git status
+  470  git push
+  471  git remote -v
+  472  git status
+  473  touch README.md
+  474  git add .
+  475  git status
+  476  git status
+  477  git add .
+  478  git commit -a -m 'readme added'
+  479  git status
+  480  git log --oneline
+  481  git push
+  482  cd -
+  483  ls
+  484  cd 'html and css projects'
+  485  cd 'html projects'
+  486  ls
+  487  git status
+  488  git add .
+  489  git status
+  490  git commit -a -m 'html resume added'
+  491  git status
+  492  git remote
+  493  git remote -v
+  494  git push
+  495  git status
+  496  git status
+  497  cd --
+  498  git status
+  499  history
+  500  exit
+  501  cd /d
+  502  ls
+  503  cd git
+  504  ls
+  505  cd 'git commands'
+  506  git status
+  507  git init
+  508  git status
+  509  history
